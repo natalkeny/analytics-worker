@@ -1,0 +1,24 @@
+{
+  "service": "analytics-worker",
+  "status": "healthy",
+  "timestamp": "2024-01-27T10:00:00Z",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "metrics": {
+    "processed_events": 123456,
+    "failed_events": 123,
+    "cpu_usage_percent": 15.5,
+    "memory_usage_mb": 512
+  },
+  "dependencies": {
+    "database": {
+      "status": "connected",
+      "latency_ms": 10
+    },
+    "message_queue": {
+      "status": "healthy",
+      "queue_size": 50
+    }
+  },
+  "alerts": []
+}
